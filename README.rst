@@ -96,7 +96,7 @@ From source:
 We don't officially support building from source using ``pip``, but *if* you do,
 you'll need to use the ``--no-build-isolation`` flag.
 In case building TorchVision from source fails, install the nightly version of PyTorch following
-the linked guide on the  `contributing page <https://github.com/pytorch/vision/blob/main/CONTRIBUTING.md#development-installation>`_ and retry the install.
+the linked guide on the  `contributing page <https://github.com/pytorch/vision/blob/main/CONTRIBUTING.md#development-installation>`_ and retry the installation.
 
 By default, GPU support is built if CUDA is found and ``torch.cuda.is_available()`` is true.
 It's possible to force building GPU support by setting ``FORCE_CUDA=1`` environment variable,
